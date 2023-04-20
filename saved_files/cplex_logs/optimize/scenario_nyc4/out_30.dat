@@ -1,0 +1,59 @@
+
+<<< setup
+
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+Tried aggregator 2 times.
+MIP Presolve eliminated 23963 rows and 22541 columns.
+MIP Presolve added 2 rows and 0 columns.
+MIP Presolve modified 4 coefficients.
+Aggregator did 189 substitutions.
+Reduced MIP has 899 rows, 1331 columns, and 2725 nonzeros.
+Reduced MIP has 454 binaries, 241 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.08 sec. (33.09 ticks)
+Found incumbent of value 11321.800000 after 0.08 sec. (38.55 ticks)
+Probing fixed 0 vars, tightened 208 bounds.
+Probing time = 0.00 sec. (0.51 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 808 rows and 1003 columns.
+Aggregator did 1 substitutions.
+Reduced MIP has 90 rows, 327 columns, and 697 nonzeros.
+Reduced MIP has 166 binaries, 145 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.63 ticks)
+Probing time = 0.00 sec. (0.17 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 1 rows and 0 columns.
+MIP Presolve added 2 rows and 0 columns.
+MIP Presolve modified 3 coefficients.
+Reduced MIP has 91 rows, 327 columns, and 698 nonzeros.
+Reduced MIP has 166 binaries, 145 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.57 ticks)
+Probing time = 0.00 sec. (0.17 ticks)
+Clique table members: 62.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 16 threads.
+Root relaxation solution time = 0.00 sec. (0.38 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        11200.7000    10961.9000             2.13%
+*     0     0      integral     0    11054.5000    11054.5000       52    0.00%
+Elapsed time = 0.30 sec. (147.05 ticks, tree = 0.00 MB, solutions = 4)
+
+Root node processing (before b&c):
+  Real time             =    0.31 sec. (148.14 ticks)
+Parallel b&c, 16 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.31 sec. (148.14 ticks)
+main returns 0
+
+<<< main
+
+
+<<< done
+

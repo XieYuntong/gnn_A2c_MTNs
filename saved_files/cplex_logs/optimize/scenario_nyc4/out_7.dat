@@ -1,0 +1,55 @@
+
+<<< setup
+
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+Tried aggregator 2 times.
+MIP Presolve eliminated 24202 rows and 22589 columns.
+MIP Presolve modified 5 coefficients.
+Aggregator did 196 substitutions.
+Reduced MIP has 867 rows, 1267 columns, and 2557 nonzeros.
+Reduced MIP has 418 binaries, 233 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.06 sec. (30.28 ticks)
+Found incumbent of value 11144.900000 after 0.08 sec. (35.39 ticks)
+Probing fixed 0 vars, tightened 204 bounds.
+Probing time = 0.00 sec. (0.34 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 784 rows and 980 columns.
+Reduced MIP has 83 rows, 287 columns, and 603 nonzeros.
+Reduced MIP has 130 binaries, 133 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.96 ticks)
+Probing time = 0.00 sec. (0.12 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve modified 3 coefficients.
+Reduced MIP has 83 rows, 287 columns, and 603 nonzeros.
+Reduced MIP has 130 binaries, 133 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.44 ticks)
+Probing time = 0.00 sec. (0.12 ticks)
+Clique table members: 3.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 16 threads.
+Root relaxation solution time = 0.01 sec. (0.33 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        11071.4000    10710.4000             3.26%
+*     0     0      integral     0    10798.7000    10798.7000       48    0.00%
+Elapsed time = 0.31 sec. (140.78 ticks, tree = 0.00 MB, solutions = 4)
+
+Root node processing (before b&c):
+  Real time             =    0.31 sec. (141.88 ticks)
+Parallel b&c, 16 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.31 sec. (141.88 ticks)
+main returns 0
+
+<<< main
+
+
+<<< done
+

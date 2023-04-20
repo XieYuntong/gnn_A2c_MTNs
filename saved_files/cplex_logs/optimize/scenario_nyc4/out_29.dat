@@ -1,0 +1,57 @@
+
+<<< setup
+
+Version identifier: 22.1.0.0 | 2022-03-09 | 1a383f8ce
+Tried aggregator 2 times.
+MIP Presolve eliminated 23945 rows and 22483 columns.
+MIP Presolve modified 1 coefficients.
+Aggregator did 200 substitutions.
+Reduced MIP has 911 rows, 1390 columns, and 2844 nonzeros.
+Reduced MIP has 535 binaries, 208 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.06 sec. (32.00 ticks)
+Found incumbent of value 11382.000000 after 0.08 sec. (38.63 ticks)
+Probing fixed 0 vars, tightened 218 bounds.
+Probing time = 0.00 sec. (0.59 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 852 rows and 1069 columns.
+Reduced MIP has 59 rows, 321 columns, and 702 nonzeros.
+Reduced MIP has 225 binaries, 94 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (1.17 ticks)
+Probing time = 0.00 sec. (0.24 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 2 rows and 1 columns.
+MIP Presolve added 4 rows and 0 columns.
+MIP Presolve modified 3 coefficients.
+Reduced MIP has 61 rows, 320 columns, and 703 nonzeros.
+Reduced MIP has 224 binaries, 94 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.00 sec. (0.67 ticks)
+Probing time = 0.00 sec. (0.24 ticks)
+Clique table members: 15.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 16 threads.
+Root relaxation solution time = 0.00 sec. (0.36 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                        11313.3000    11024.6000             2.55%
+*     0     0      integral     0    11163.3000    11163.3000       35    0.00%
+Elapsed time = 0.30 sec. (146.18 ticks, tree = 0.00 MB, solutions = 4)
+
+Root node processing (before b&c):
+  Real time             =    0.31 sec. (147.27 ticks)
+Parallel b&c, 16 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    0.31 sec. (147.27 ticks)
+main returns 0
+
+<<< main
+
+
+<<< done
+
